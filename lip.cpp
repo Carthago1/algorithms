@@ -1,8 +1,8 @@
 #include "lip.h"
 #include <algorithm>
 /*
-В массиве a хранится последовательность, в массиве l хранятся наибольшие длины подпоследовательностей,
-заверщающихся на элементах с индексом k. Решение за время O(n^2)
+The sequence is in variable a. The array l stores the largest lengths of subsequences,
+ending on elements with index k. Time complexity O(n^2)
 */
 int lip(int* a, int* l, int n)
 {
